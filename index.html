@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Expense App</title>
+</head>
+
+<body>
+  <h1>Expense App</h1>
+
+  <form id="addExpenseForm">
+    <input type="text" id="expenseNameInput" placeholder="Add expense" required>
+    <input type="text" id="priceInput" placeholder="Price" required>
+    <select id="categorySelect" required>
+      <option value="">Choose Category</option>
+      <option value="transportation">Transportation</option>
+      <option value="rent">Rent</option>
+      <option value="food">Food</option>
+      <option value="shopping">Shopping</option>
+    </select>
+    <button type="submit">Add expense</button>
+  </form>
+
+  <div id="expenseList"></div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
